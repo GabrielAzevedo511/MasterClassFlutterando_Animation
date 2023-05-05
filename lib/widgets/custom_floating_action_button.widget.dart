@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
-class NewFloatingActionButton extends StatefulWidget {
-  const NewFloatingActionButton({super.key, this.haveAppBar = false});
+class CustomFloatingActionButton extends StatefulWidget {
+  const CustomFloatingActionButton({super.key, this.haveAppBar = false});
   final bool haveAppBar;
   @override
-  State<NewFloatingActionButton> createState() =>
-      _NewFloatingActionButtonState();
+  State<CustomFloatingActionButton> createState() =>
+      _CustomFloatingActionButtonState();
 }
 
-class _NewFloatingActionButtonState extends State<NewFloatingActionButton> {
+class _CustomFloatingActionButtonState
+    extends State<CustomFloatingActionButton> {
   bool isTop = false;
 
   @override

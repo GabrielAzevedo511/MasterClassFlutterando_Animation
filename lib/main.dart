@@ -1,7 +1,7 @@
-import 'package:animated/my_scroll_view.widget.dart';
+import 'package:animated/my_scroll_view.page.dart';
 import 'package:flutter/material.dart';
 
-import 'new_floating_action_button.widget.dart';
+import 'widgets/controlled_custom_floating_action_button.widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,7 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
               icon: const Icon(Icons.change_circle))
         ],
       ),
-      body: isFloating ? const NewFloatingActionButton() : const MyScrollView(),
+      body: isFloating
+          ? const ControlledCustomFloatingActionButton()
+          : const MyScrollView(),
     );
   }
 }
