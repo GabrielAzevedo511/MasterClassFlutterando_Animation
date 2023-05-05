@@ -74,12 +74,10 @@ class CustomExpandedTileWidget extends StatelessWidget {
           duration: animationDuration,
           alignment: Alignment.center,
           heightFactor: heightFactor,
-          child: AnimatedContainer(
-              duration: animationDuration,
-              child: Padding(
-                padding: const EdgeInsets.only(bottom: 8),
-                child: content,
-              )),
+          child: Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: content,
+          ),
         ),
       );
     }
