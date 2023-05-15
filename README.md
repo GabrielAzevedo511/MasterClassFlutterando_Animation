@@ -1,16 +1,8 @@
-# animated
+# MasterClassFlutterando_Animation
+Neste repositório é possível encontrar as atividades do módulo de animação do curso MasterClass Flutter, da Flutterando, ministrado por [Jacob Moura](https://github.com/jacobaraujo7).
+## Exercícios de animação Impícita e Controlada!
+Atividades com o intuito de aprender e treinar as animações no framework Flutter.
+### Enunciados:
+- [Animações Implícitas](https://github.com/davidsdearaujo/flutterando_masterclass/blob/master/1%20-%20Anima%C3%A7%C3%B5es%20Impl%C3%ADcitas.md)
+- [Animações Controladas](https://github.com/davidsdearaujo/flutterando_masterclass/blob/master/2%20-%20Anima%C3%A7%C3%B5es%20Controladas.md)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
